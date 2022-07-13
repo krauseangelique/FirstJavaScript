@@ -18,7 +18,7 @@ let myJob           = "apprenante chez Sirius !";
 
 // Developement
 
-    /* ! into the Console
+    /*! into the Console
     ---------------
         typeof arrayTest
         'undefined'
@@ -31,4 +31,5 @@ console.log(typeof counted); // number
 
 console.log(`Je m'appelle ${firstname}, j'ai ${age} et je suis ${job}`);
 console.log(`Je m'appelle ${myFirstname}, j'ai ${myAge} et je suis ${myJob}`);
+console.log("je s`appelle " + firstname ); // old method
 
