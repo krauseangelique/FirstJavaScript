@@ -1,36 +1,20 @@
-console.log(`Coucou je s'appelle Groot.`);
-function nav(){
-    console.log("Je suis une fonction");
-}
-let firstArray = ["coucou", "bonjour", "hello"];
-let langage = '';
-if(langage == 'en'){
-    document.write(firstArray[0]);
-}
+// camelCase
+// Declare variables
+const firstname = "Lucas";
+const lastname = "Ielli";
+let counter = "29"; // string
+let counted = 29; // number
 
-let javascriptCoach = "Lucas";
-let firstname = "Lucas";
+// typeof Number('1') === 'number'; // Number essaie de convertir l'argument en nombre
+// Developement
 
-function isNotConnected() {
-    firstname = "Arnaud";
-    console.log(firstname);
-}
+/* ! into the Console
+   ---------------
+    typeof arrayTest
+    'undefined'
+*/
 
-function isConnected() {
-    firstname = "Angélique";
-    console.log(firstname);
-}
- isNotConnected(); // Output Arnaud
- isConnected(); // Output Angélique
+// Display
+console.log(typeof counter); // string
+console.log(typeof counted); // number
 
- let isAlwaysConnected = Boolean;
-
- function connected() {
-    firstname = "Angélique";
-    if (isAlwaysConnected == true) {
-        alert(`Welcome back ${firstname}`);
-    } else {
-        alert(`${firstname} you are not connect ! `);
-    }
- }
- console.log(firstname);
