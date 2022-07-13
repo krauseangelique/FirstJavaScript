@@ -13,6 +13,11 @@ let myAge           = "56 ans";
 let job             = "coach chez Sirius !";
 let myJob           = "apprenante chez Sirius !";
 
+// Boolean
+let isConnected = Boolean(null); // assigment to null for a boolean return false let isConnected = false by default
+
+
+
 
 // typeof Number('1') === 'number'; // Number try to convert argument to number
 
@@ -32,4 +37,6 @@ console.log(typeof counted); // number
 console.log(`Je m'appelle ${firstname}, j'ai ${age} et je suis ${job}`);
 console.log(`Je m'appelle ${myFirstname}, j'ai ${myAge} et je suis ${myJob}`);
 console.log("je s`appelle " + firstname ); // old method
+console.log(typeof isConnected); // null return false
+console.log(isConnected);
 
