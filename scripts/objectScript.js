@@ -1,4 +1,4 @@
-// Declare variables
+// Variables declaration
 const chat = {
     name: "Lucky",
     age: 4,
@@ -6,13 +6,20 @@ const chat = {
     color: "Tigré Gris"
 };
 
+const userRegister = {
+    username: "admin",
+    email: "admin@example.be",
+    password: "coucou123",
+    confirmPassword: "coucou123"
+}
 
 
-// Developement
+
+// Data processing Developement
 
 
 
-// Display: Output
+// Display of results: Output
 console.log(chat);
 console.log(chat['name']);// ca fonctionne MAIS ne le faites pas car c'est la syntaxe pour les tableaux
 console.log(`La couleur du chat est`, chat['color']); // La couleur du chat est Tigré Gris

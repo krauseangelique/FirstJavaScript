@@ -11,6 +11,14 @@ let simpleString    = "Lucas"; // String
 let simpleNumber    = 0; // Number
 let simpleBoolean   = true; // Boolean 
 
+let brandMotos = ["Honda","BMW", "Yamaha"];
+
+brandMotos.forEach((brandMoto) => {
+
+   let newArrayOfBrandMoto = new String(brandMoto);
+    console.log(newArrayOfBrandMoto.split(''));
+});
+console.log(brandMotos);
 
 // Developement
 
@@ -19,3 +27,5 @@ let simpleBoolean   = true; // Boolean
 console.log(theFirstname);
 console.log(studentArray.length);
 console.log(studentArray[0]);
+
+//Number.POSITIVE_INFINITY
