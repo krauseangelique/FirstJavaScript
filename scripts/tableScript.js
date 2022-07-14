@@ -18,14 +18,22 @@ brandMotos.forEach((brandMoto) => {
    let newArrayOfBrandMoto = new String(brandMoto);
     console.log(newArrayOfBrandMoto.split(''));
 });
-console.log(brandMotos);
+const students = ["Mark", "Jane", "John", "Sarah"];
+
 
 // Developement
+
+
+students.forEach((student, index) => {
+    console.log(`The index for ${student} is ${index}`);
+});
 
 
 // Display: Output
 console.log(theFirstname);
 console.log(studentArray.length);
 console.log(studentArray[0]);
+
+console.log(brandMotos);
 
 //Number.POSITIVE_INFINITY
