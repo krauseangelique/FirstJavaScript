@@ -8,6 +8,9 @@ For each item in this array console.log the letters in each item.
 // Variables declaration
 let furnitures = ['Table', 'Chairs','Couch'];
 
+// Display of results: Output
+console.log(furnitures);
+
 // Data processing Developement
 
 furnitures.forEach((furniture) => {
@@ -19,8 +22,7 @@ furnitures.forEach((furniture) => {
 }); 
 
 
-// Display of results: Output
-console.log(furnitures);
+
 
 
    

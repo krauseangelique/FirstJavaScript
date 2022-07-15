@@ -7,7 +7,7 @@ Display in your console the index of each data in your array
 */
 
 // Variables declaration
-let someDataTypes = ["chaine", true, 9, undefined];
+const someDataTypes = ["chaine", true, 9, undefined];
 
 // Developement
 /*
@@ -17,7 +17,9 @@ console.log(typeof a); // number
 console.log(typeof '9'); // string
 console.log(typeof false); // boolean
 */
-
+someDataTypes.forEach(dataType => {
+  console.log(typeof dataType);
+})
 
 // Display: Output
    

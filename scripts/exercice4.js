@@ -10,7 +10,7 @@
 
 // Variables declaration
 let emptyArray = [];
-
+console.log(emptyArray);
 // Data processing Developement
 let pushDataIntoEmptyArray = emptyArray;
 pushDataIntoEmptyArray.push('chickens', 'cats', 'dogs');
@@ -21,7 +21,7 @@ let copyArrayPushData = pushDataIntoEmptyArray.slice();
 
 
 // Display of results: Output
-console.log(emptyArray);
+
 console.log(pushDataIntoEmptyArray);
 console.log('new full array: ' + pushDataIntoEmptyArray);
 console.log(copyArrayPushData);

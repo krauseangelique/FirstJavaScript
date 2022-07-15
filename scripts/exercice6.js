@@ -34,9 +34,9 @@ words.forEach(
 function values(v1) {
   return v1.filter(x => typeof x === "number");
 }
+console.log(values(values1));
 console.log(values(values2));
 console.log(values(values3));
-console.log(values(values1));
 
 
 

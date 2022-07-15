@@ -40,6 +40,7 @@ function myAlphabetLength() {
 
     // Display: Output
   console.log(myAlphabet.length);
+  
 
 }
 

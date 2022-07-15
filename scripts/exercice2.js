@@ -9,11 +9,12 @@ Also console.log the index in each iteration.
 const planets = ['Mars','Terre', 'Saturn', 'Netptune', 'Venus'];
 
 // Developement
+// planets.forEach((planet, i))
 planets.forEach(
         (planet, index) => {
 
         // Display: Output
-        console.log ((index + 1), planet);
+        console.log (`Ceci est l'index: ${index}, Ceci est ma planete: ${planet}`);
         }
     );
 
