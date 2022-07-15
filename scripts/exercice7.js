@@ -34,8 +34,19 @@ console.log(arr); // [ 1, 2, 3, 4, 5 ]
 // Display of results: Output
 
 
+const commoneWord = studentCoursesA.filter(element => studentCoursesB.includes(element));
+console.log(commoneWord);
 
 
+let commonWord = (firstArray, secondArray) => {
+    let compareArray = firstArray.filter((word) => secondArray.includes(word));
+    console.log(compareArray);
+
+};
+commonWord(studentCoursesA, studentCoursesB);
+/* return
+['Programming']0: "Programming"length: 1[[Prototype]]: Array(0)
+*/
    
 
 
