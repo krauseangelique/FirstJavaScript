@@ -4,6 +4,7 @@ function helloWhenConnected(name) {
     confirm(`Bonjour ${userName}`);
 }
 
+
 helloWhenConnected("Arnaud");
 
 if(confirm() === true) {
@@ -30,3 +31,23 @@ function familyDialloArray(arr) {
 familyDialloArray(arrayOfDiallo);
 
 document.getElementById("btnLinkTop");
+
+
+// fonction 3 param
+function generateRandom() {
+    const r1 = Math.floor(Math.random() * 256);
+    const g1 = Math.floor(Math.random() * 256);
+    const b1 = Math.floor(Math.random() * 256);
+
+    document.body.style.background = `rgb(${r1}, ${g1}, ${b1})`;
+}
+
+// Call to function
+// generateRandom();
+document.getElementById("randomBg").addEventListener("click", generateRandom);
+
+
+
+
+   
+

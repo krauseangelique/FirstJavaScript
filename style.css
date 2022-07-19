@@ -1,7 +1,14 @@
-body{
+/*body{
     background-color: bisque;
 }
+*/
+
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: navy;
 }
+#color{
+    background-color:rgb(randomNumber, randomNumber, randomNumber);
+    border: 2px solid rgb(110, 191, 110);
+}
+
