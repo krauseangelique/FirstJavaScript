@@ -90,7 +90,11 @@ Valeur de retour
 Un nombre flottant obtenu à partir de l'analyse de la chaîne de caractères. Si le premier caractère ne permet pas d'obtenir un nombre, ce sera la valeur NaN qui sera renvoyée.
 
 Description
+
 */
+
+
+
 
 
 
