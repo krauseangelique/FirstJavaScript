@@ -53,3 +53,21 @@ let newTab = numbers.map(str => parseInt(str));
 
 console.log(newTab); // expected out:  [5, 8, 9, 11, 1, 6]
 console.log(typeof newTab[0]); // expected output: number
+
+let arrayTest = [];
+let numberTest = 0;
+do {
+  numberTest = numberTest + 1; // ou numberTest++;
+  arrayTest.push(numberTest);
+} while (numberTest < 10);
+console.log(arrayTest); // Output console:
+
+let arrayTest2 = [];
+let numberTest2 = 0;
+do {
+  
+  arrayTest2.push(numberTest2);
+  numberTest2 = numberTest2 + 1; // ou numberTest++;
+
+} while (numberTest2 < 10);
+console.log(arrayTest2); // Output console:
