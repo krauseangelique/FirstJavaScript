@@ -47,3 +47,9 @@ function convert(num){
 
 console.log(newArray);
 document.write("\12 XX"); // expected output XX BUT in a special font for Qnumbers in LATIN CARACTERS
+
+let numbers  = ["5", "8", "9", "11", "1", "6"];
+let newTab = numbers.map(str => parseInt(str));
+
+console.log(newTab); // expected out:  [5, 8, 9, 11, 1, 6]
+console.log(typeof newTab[0]); // expected output: number
