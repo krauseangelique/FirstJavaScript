@@ -69,6 +69,7 @@ console.log(mesfruits[index]); // Pomme
 
 /******
  * filter
+ * Comme son nom l'indique, la méthode filter() permet d'appliquer un filtre personnalisé, et ensuite de renvoyer le résultat de ce filtre dans un nouveau tableau. Exemple d'utilisation :
  */
 let filteredArrayFruits = fruits.filter((citrus) => citrus === "Orange");
 console.log(filteredArrayFruits);
@@ -80,8 +81,18 @@ length: 1
 */
 
 /******
- * reduce
+ * reduce : accumule les valeurs d'un tableau et les réduit à une valeur UNIQUE
  */
+const array1 = [1, 2, 3, 4];
+
+// Je veux obtenir la somme des éléments du tableau : 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array1.reduce(
+    (previousValue, currentValue) => previousValue + currentValue, initialValue
+);
+console.log(sumWithInitial);
+//expected output : 10
+
 
 /******
  * map à utiliser avec des tableaux de prix transactions taille de vêtements etc. donc avec des numbers
